@@ -54,7 +54,7 @@ const Hero = () => {
           <Button
             name="Poznaj Więcej"
             isBeam
-            containerClass="sm:w-fit w-full sm:min-w-96"
+            containerClass="sm:w-fit w-full sm:min-w-96 hover:shadow-md hover:shadow-emerald-700 hover:scale-105 transition-all duration-300"
           />
         </a>
       </div>

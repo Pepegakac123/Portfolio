@@ -6,17 +6,32 @@ const Footer = () => {
       </div>
       <div className="flex gap-3">
         <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+          <a
+            className="flex justify-center items-center w-full h-full"
+            href="https://github.com/Pepegakac123"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="/assets/github.svg"
+              alt="github"
+              className="w-3/4 h-3/4"
+            />
+          </a>
         </div>
         <div className="social-icon">
-          <img
-            src="/assets/linkedin.svg"
-            alt="linkedin"
-            className="w-1/2 h-1/2"
-          />
-        </div>
-        <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+          <a
+            className="flex justify-center items-center w-full h-full"
+            href="kacper-adamczyk-a777b030bhttps://www.linkedin.com/in/kacper-adamczyk-a777b030b/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="/assets/linkedin.svg"
+              alt="linkedin"
+              className="w-3/4 h-3/4"
+            />
+          </a>
         </div>
       </div>
       <div className="grid place-items-center w-full">

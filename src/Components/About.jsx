@@ -1,7 +1,12 @@
-import Globe from "react-globe.gl";
 import Button from "./Button";
 import { useState } from "react";
-
+import { Canvas } from "@react-three/fiber";
+import { PerspectiveCamera, Ring } from "@react-three/drei";
+import University from "./University";
+import { Suspense } from "react";
+import CanvasLoader from "./CanvasLoader";
+import { useMediaQuery } from "react-responsive";
+import { calculateSizes } from "../Constants/index.js";
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
   const handleCopy = () => {
@@ -11,6 +16,13 @@ const About = () => {
       setHasCopied(false);
     }, 2000);
   };
+
+  const isSmall = useMediaQuery({ maxWidth: 440 });
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
+
+  const sizes = calculateSizes(isSmall, isMobile, isTablet);
+
   return (
     <section className="c-space my-20" id="o-mnie">
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full ">
@@ -42,30 +54,34 @@ const About = () => {
         <div className="col-span-1 xl:row-span-4">
           <div className="grid-container hover:shadow-lg hover:shadow-emerald-700/60  transition-shadow duration-300">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
-              <Globe
-                height={326}
-                width={326}
-                backgroundColor="rgba(0,0,0,0)"
-                backgroundImageOpacity={0.5}
-                showAtmosphere
-                showGraticules
-                globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-                bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                // labelsData={[
-                //   {
-                //     lat: 40,
-                //     lng: -100,
-                //     text: "Jestem Tutaj",
-                //     color: 'white',
-                //     size: 20
-                //   },
-                // ]}
-              />
+              <Canvas>
+                <Suspense fallback={<CanvasLoader />}>
+                  <University
+                    // scale={controls.scale}
+                    position={sizes.universityPosition}
+                    scale={sizes.universityScale}
+                    // position={[controls.px, controls.py, controls.pz]}
+                    rotation={[Math.PI, Math.PI / 2, 0]}
+                  />
+                  <ambientLight intensity={1} />
+                  <directionalLight position={[10, 10, 10]} intensity={0.5} />
+                </Suspense>
+              </Canvas>
             </div>
             <div>
-              <p className="grid-headtext">Jestem otwarty na pracę zdalną</p>
+              <p className="grid-headtext">
+                Jestem Studentem Informatyki Stosowanej
+              </p>
               <p className="grid-subtext">
-                Mieszkam w Krakowie gdzie obecnie studiuję
+                Od 1 października 2024 roku studiuję informatykę stosowaną w
+                Wyższej Szkole Ekonomii i Informatyki w Krakowie. Wcześniej
+                ukończyłem Technikum Informatyczne w Rabce Zdrój.
+                <br />
+                <br />
+                Podjęte studia pomagają mi w dalszym stopniu rozwijać się w
+                kierunki, który prawdziwe mnie pasjonuje. Dzięki niestacjonarnym
+                formą studiów mogę pozwolić sobie na swobodną łączenie pracy z
+                nauka.
               </p>
               <Button
                 name="Napisz Teraz"

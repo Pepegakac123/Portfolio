@@ -48,23 +48,23 @@ const Contact = () => {
     }
   };
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="kontakt">
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         {!isMobile && (
           <img
             src="/assets/terminal.png"
             alt="terminal"
-            className="absolute inset-0 min-h-screen"
+            className="absolute min-h-[120vh]"
           />
         )}
 
         <div className="contact-container">
           <h3 className="head-text">Kontakt</h3>
-          <p className="text-lg text-white-600 mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            sed voluptate quidem tenetur molestiae possimus ex consequuntur qui
-            nam necessitatibus, aut similique laudantium ut quas laborum, harum
-            sint hic pariatur.
+          <p className="text-base text-white-600 mt-3">
+            Jestem otwarty na nowe wyzwania i chętnie porozmawiam o
+            możliwościach współpracy. Jeśli szukasz osoby, która pomoże rozwijać
+            Twoje projekty, zapraszam do kontaktu. Z przyjemnością odpowiem na
+            Twoje pytania i omówię, jak mogę wesprzeć Twój zespół
           </p>
           <form
             ref={formRef}

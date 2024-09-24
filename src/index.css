@@ -134,7 +134,7 @@ body {
   }
 
   .field-label {
-    @apply text-lg text-white-600;
+    @apply text-base text-white-600;
   }
 
   .field-input {
@@ -151,7 +151,7 @@ body {
 
   /*  footer */
   .social-icon {
-    @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
+    @apply w-12 h-12 rounded-full  bg-black-300 border border-black-200;
   }
 }
 

@@ -6,7 +6,7 @@ export const navLinks = [
   },
   {
     id: 2,
-    name: "O mnie",
+    name: "O Mnie",
     href: "#o-mnie",
   },
   {
@@ -250,6 +250,8 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+    universityScale: isSmall ? 0.1 : 0.12,
+    universityPosition: isMobile ? [0, -0.85, 1.3] : [0, -0.85, 1],
     cubePosition: isSmall
       ? [4, -5, 0]
       : isMobile
@@ -284,32 +286,77 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
-    title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+    name: "Webkaster",
+    pos: "Freelancer - Web Development",
+    duration: "2023 - Present",
+    title: [
+      {
+        heading: "Projektowanie i wdrażanie stron w WordPress - ",
+        content:
+          "Zajmowałem się kompleksowym projektowaniem oraz wdrażaniem stron internetowych opartych na WordPressie, dbając o ich funkcjonalność i estetykę.",
+      },
+      {
+        heading: "Tworzenie stron z użyciem Reacta - ",
+        content:
+          "Tworzyłem dynamiczne i nowoczesne strony internetowe z wykorzystaniem Reacta oraz bibliotek takich jak React Router, React Query i Redux, zapewniając efektywną nawigację, zarządzanie danymi oraz stanem aplikacji.",
+      },
+      {
+        heading: "Projektowanie grafik - ",
+        content:
+          "Odpowiadałem za projektowanie materiałów graficznych, które wspierały komunikację wizualną na stronach internetowych oraz w kampaniach marketingowych.",
+      },
+      {
+        heading: "Optymalizacja SEO oraz kampanie reklamowe - ",
+        content:
+          "Prowadziłem optymalizację stron pod kątem SEO oraz tworzyłem kampanie reklamowe przy użyciu Google Ads i Facebook Ads, zwiększając widoczność oraz zasięgi klientów.",
+      },
+    ],
+    icon: "/assets/webkaster.svg",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
-    title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+    name: "Technikum Informatyczne w Rabce Zdrój",
+    pos: "Praktykant",
+    duration: "2022 - 2023",
+    title: [
+      {
+        heading: "Projektowanie wizualne - ",
+        content:
+          "Stworzyłem projekt wizualny dla szkolnej strony internetowej, która miała na celu promocję i organizację szkolnych targów książki.",
+      },
+      {
+        heading: "Implementacja projektu - ",
+        content:
+          "Zaimplementowałem stworzony projekt przy użyciu języków CSS i HTML, dbając o estetykę i funkcjonalność strony.",
+      },
+      {
+        heading: "Dodawanie funkcjonalności JavaScript - ",
+        content:
+          "Dodałem funkcjonalności oparte na JavaScript, umożliwiające filtrowanie książek, dodawanie ich do koszyka oraz dynamiczne wyświetlanie treści na stronie.",
+      },
+    ],
+    icon: "/assets/technikum.svg",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+    name: "Printsoft",
+    pos: "Praktykant",
+    duration: "2021 - 2022",
+    title: [
+      {
+        heading: "Projektowanie i tworzenie grafik - ",
+        content:
+          "Tworzyłem i projektowałem różnorodne materiały graficzne, w tym mockupy, banery oraz ulotki, dostosowane do potrzeb klientów i kampanii marketingowych.",
+      },
+      {
+        heading: "Administracja i tworzenie treści na stronie internetowej - ",
+        content:
+          "Zajmowałem się zarządzaniem oraz tworzeniem treści na stronach internetowych za pomocą systemu CMS WordPress, dbając o ich aktualność i atrakcyjność wizualną.",
+      },
+    ],
+    icon: "/assets/printsoft.svg",
     animation: "salute",
   },
 ];
