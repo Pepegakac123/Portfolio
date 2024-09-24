@@ -32,10 +32,14 @@ const About = () => {
             <div>
               <p className="grid-headtext">Cześć, Jestem Kacper</p>
               <p className="grid-subtext">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor,
-                eligendi dolorem maiores distinctio obcaecati praesentium quos,
-                voluptates debitis quia commodi reiciendis dolore quam ad
-                pariatur possimus sapiente fugit cumque provident.
+                Mam 20 lat i moją pasję do tworzenia stron internetowych
+                odkryłem, gdy skończyłem 7. klasę. Od tego czasu nieustannie
+                rozwijam swoje umiejętności w tej dziedzinie. Poza
+                programowaniem, jestem ogromnym fanem uniwersum Wiedźmina,
+                Kibicuję FC Barcelonie, śledząc każdy mecz z zapartym tchem.
+                Interesuję się również kulturą japońską oraz sztuką tatuażu,
+                która dla mnie jest nie tylko formą ekspresji, ale także piękną
+                opowieścią na skórze.
               </p>
             </div>
           </div>
@@ -43,12 +47,16 @@ const About = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container hover:shadow-lg hover:shadow-emerald-700/60  transition-shadow duration-300">
             <img src="/assets/grid2.png" alt="grid-2" className="grid-img " />
-            <div className="grid-headtext">Tech Stack</div>
-            <div className="grid-subtext">
-              Specjalizuje się w Web Development przy użyciu technologi takich
-              jak JavaScript/TypeScript z wykorzystaniem ekosystemu React oraz
-              CMS-a Wordpress z użyciem Elementora jako page buildera
-            </div>
+            <p className="grid-headtext">Tech Stack</p>
+            <p className="grid-subtext">
+              Specjalizuję się w Web Development, wykorzystując{" "}
+              <b>JavaScript/TypeScript</b> oraz <b>React</b> do budowy
+              dynamicznych aplikacji, <b>Tailwind CSS</b> do tworzenia
+              responsywnych i nowoczesnych interfejsów oraz <b>WordPress</b> z{" "}
+              <b>Elementorem</b> do projektowania elastycznych stron
+              internetowych. Skupiam się na wydajności, dostępności i
+              nowoczesnych rozwiązaniach frontendowych.
+            </p>
           </div>
         </div>
         <div className="col-span-1 xl:row-span-4">
@@ -74,14 +82,12 @@ const About = () => {
               </p>
               <p className="grid-subtext">
                 Od 1 października 2024 roku studiuję informatykę stosowaną w
-                Wyższej Szkole Ekonomii i Informatyki w Krakowie. Wcześniej
-                ukończyłem Technikum Informatyczne w Rabce Zdrój.
-                <br />
-                <br />
-                Podjęte studia pomagają mi w dalszym stopniu rozwijać się w
-                kierunki, który prawdziwe mnie pasjonuje. Dzięki niestacjonarnym
-                formą studiów mogę pozwolić sobie na swobodną łączenie pracy z
-                nauka.
+                Wyższej Szkole Ekonomii i Informatyki w Krakowie, Wcześniej
+                ukończyłem Technikum Informatyczne w Rabce-Zdroju. Studia te
+                pozwalają mi rozwijać się w kierunku, który jest moją prawdziwą
+                pasją. Dzięki niestacjonarnej formie nauki mam możliwość
+                łączenia studiów z pracą, co pozwala mi zdobywać doświadczenie
+                zawodowe, jednocześnie kontynuując edukację.
               </p>
               <Button
                 name="Napisz Teraz"
@@ -101,10 +107,21 @@ const About = () => {
             <div>
               <p className="grid-headtext">Moja pasja do frontendu</p>
               <p className="grid-subtext">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-                nulla doloremque possimus reprehenderit ipsa sequi dignissimos,
-                ex sapiente perferendis labore corrupti sunt pariatur facilis?
-                Molestiae quam error assumenda aspernatur laborum.
+                Moja przygoda z frontendem zaczęła się wiele lat temu, kiedy
+                stworzyłem swoją pierwszą banalna stronę HTML(nie posiadała
+                nawet CSS-a). Od razu zafascynowała mnie możliwość
+                przekształcania pomysłów w rzeczywistość, gdzie każdy element,
+                od przycisku po animację, ma znaczenie dla doświadczenia
+                użytkownika.
+                <br />
+                <br />
+                Ciągle eksploruję nowe technologie i narzędzia, takie jak React
+                czy Tailwind CSS, aby tworzyć nowoczesne i intuicyjne
+                interfejsy. Moją motywacją jest nieustanny rozwój oraz chęć
+                dostarczania użytkownikom wyjątkowych doświadczeń. Ostatnio
+                zainteresowałem się również backendem co daje możliwość
+                tworzenia całych aplikacji. W niedalekiej przyszłości napewno
+                planuje poznać tajniki NodeJS oraz Next.js
               </p>
             </div>
           </div>

@@ -47,7 +47,7 @@ const Projects = () => {
             <p className="text-white text-2xl font-semibold animatedText">
               {currentProject.title}
             </p>
-            <p className="animatedText">{currentProject.subdesc}</p>
+            <p className="animatedText">{currentProject.desc}</p>
           </div>
           <div className="flex items-center justify-between flex-wrap gap-5">
             <div className="flex items-center gap-3">
@@ -64,7 +64,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p>Check Live Site</p>
+              <p>Odwiedź Stronę</p>
               <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>
           </div>
