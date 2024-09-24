@@ -57,7 +57,7 @@ export const myProjects = [
     title: "ComfyStore - Sklep Z Dekoracjami",
     desc: "ComfyStore to przykładowa frontendowa strona sklepu z dekoracjami, zbudowana przy użyciu ekosystemu React. Strona oferuje funkcje logowania i rejestracji użytkowników, którzy mogą dodawać wybrane produkty do koszyka oraz dokonywać zakupów. Zintegrowane dynamiczne filtry umożliwiają łatwe przeglądanie i wybór produktów. Dodatkowo, strona pozwala użytkownikom na wybór motywu (ciemnego lub jasnego), co zwiększa wygodę korzystania i dostosowuje wygląd strony do preferencji użytkownika.",
     subdesc: "",
-    href: "https://www.comfystore.kacperadamczyk.pl",
+    href: "https://comfystore.kacperadamczyk.pl/",
     texture: "/textures/project/comfystore.mp4",
     logo: "/assets/comfystore.png",
     logoStyle: {
