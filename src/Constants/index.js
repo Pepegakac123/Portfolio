@@ -23,6 +23,58 @@ export const navLinks = [
 
 export const myProjects = [
 	{
+		title:
+			"Pingram - Aplikacja Social Media inspirowana Instagramem i Pinterestem",
+		desc: "Pingram to aplikacja stworzona przy pomocy Reacta i jego ekosystemu a także backendu appwrite. Umożliwia ona użytkowniką tworzenie własnych kont, dodawanie zdjęć oraz zarządzanie nimi. Jest ona połączeniem dwóch słynnych aplikacji - Instagrama i Pinteresta ",
+		subdesc: "",
+		href: "https://pingram.kacperadamczyk.pl/",
+		texture: "/textures/project/pingram.mp4",
+		logo: "/assets/pingram.svg",
+		logoStyle: {
+			backgroundColor: "#1C1A43",
+			border: "0.2px solid #252262",
+			boxShadow: "0px 0px 60px 0px #635BFF4D",
+		},
+		spotlight: "/assets/spotlight5.png",
+		tags: [
+			{
+				id: 1,
+				name: "React.js",
+				path: "/assets/react.svg",
+			},
+			{
+				id: 7,
+				name: "Typescript",
+				path: "/assets/typescript.png",
+			},
+			{
+				id: 5,
+				name: "React Router",
+				path: "/assets/react-router.png",
+			},
+			{
+				id: 6,
+				name: "React Query",
+				path: "/assets/react-query.png",
+			},
+			{
+				id: 2,
+				name: "TailwindCSS",
+				path: "assets/tailwindcss.png",
+			},
+			{
+				id: 3,
+				name: "Shadcn",
+				path: "assets/shadcn.svg",
+			},
+			{
+				id: 4,
+				name: "Appwrite",
+				path: "/assets/appwrite.png",
+			},
+		],
+	},
+	{
 		title: "Webkaster - Portfolio Agencji Interaktywnej",
 		desc: "Webkaster to strona portfolio agencji zajmującej się tworzeniem stron internetowych oraz marketingiem. Zbudowana na WordPressie z wykorzystaniem Elementora, umożliwia łatwą edycję i zarządzanie treścią. Strona obsługuje wiele języków (multilanguage) oraz dynamiczny kontekst, co pozwala na automatyczne dostosowanie treści do każdej realizacji. Dzięki temu portfolio jest bardziej interaktywne i intuicyjne dla użytkowników, zapewniając przejrzystą prezentację projektów agencji. ",
 		subdesc: "",
