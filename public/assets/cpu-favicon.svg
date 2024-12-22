@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Tło procesora -->
+  <rect x="4" y="4" width="24" height="24" fill="#2D2D2D" rx="2"/>
+  
+  <!-- Piny procesora -->
+  <line x1="8" y1="2" x2="8" y2="4" stroke="#666" stroke-width="2"/>
+  <line x1="12" y1="2" x2="12" y2="4" stroke="#666" stroke-width="2"/>
+  <line x1="16" y1="2" x2="16" y2="4" stroke="#666" stroke-width="2"/>
+  <line x1="20" y1="2" x2="20" y2="4" stroke="#666" stroke-width="2"/>
+  <line x1="24" y1="2" x2="24" y2="4" stroke="#666" stroke-width="2"/>
+  
+  <line x1="8" y1="28" x2="8" y2="30" stroke="#666" stroke-width="2"/>
+  <line x1="12" y1="28" x2="12" y2="30" stroke="#666" stroke-width="2"/>
+  <line x1="16" y1="28" x2="16" y2="30" stroke="#666" stroke-width="2"/>
+  <line x1="20" y1="28" x2="20" y2="30" stroke="#666" stroke-width="2"/>
+  <line x1="24" y1="28" x2="24" y2="30" stroke="#666" stroke-width="2"/>
+  
+  <!-- Wewnętrzne linie -->
+  <rect x="8" y="8" width="16" height="16" fill="none" stroke="#00FF00" stroke-width="1"/>
+  <line x1="12" y1="8" x2="12" y2="24" stroke="#00FF00" stroke-width="1"/>
+  <line x1="16" y1="8" x2="16" y2="24" stroke="#00FF00" stroke-width="1"/>
+  <line x1="20" y1="8" x2="20" y2="24" stroke="#00FF00" stroke-width="1"/>
+  <line x1="8" y1="12" x2="24" y2="12" stroke="#00FF00" stroke-width="1"/>
+  <line x1="8" y1="16" x2="24" y2="16" stroke="#00FF00" stroke-width="1"/>
+  <line x1="8" y1="20" x2="24" y2="20" stroke="#00FF00" stroke-width="1"/>
+</svg>

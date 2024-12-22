@@ -75,37 +75,6 @@ export const myProjects = [
 		],
 	},
 	{
-		title: "Webkaster - Portfolio Agencji Interaktywnej",
-		desc: "Webkaster to strona portfolio agencji zajmującej się tworzeniem stron internetowych oraz marketingiem. Zbudowana na WordPressie z wykorzystaniem Elementora, umożliwia łatwą edycję i zarządzanie treścią. Strona obsługuje wiele języków (multilanguage) oraz dynamiczny kontekst, co pozwala na automatyczne dostosowanie treści do każdej realizacji. Dzięki temu portfolio jest bardziej interaktywne i intuicyjne dla użytkowników, zapewniając przejrzystą prezentację projektów agencji. ",
-		subdesc: "",
-		href: "https://www.webkaster.com/",
-		texture: "/textures/project/webkaster.mp4",
-		logo: "/assets/webkaster.png",
-		logoStyle: {
-			backgroundColor: "#2A1816",
-			border: "0.2px solid #fde393",
-			boxShadow: "0px 0px 60px 0px #AA3C304D",
-		},
-		spotlight: "/assets/spotlight1.png",
-		tags: [
-			{
-				id: 1,
-				name: "Wordpress",
-				path: "/assets/Wordpress.png",
-			},
-			{
-				id: 2,
-				name: "Elementor",
-				path: "/assets/Elementor.png",
-			},
-			{
-				id: 3,
-				name: "Figma",
-				path: "/assets/figma.png",
-			},
-		],
-	},
-	{
 		title: "ComfyStore - Sklep Z Dekoracjami",
 		desc: "ComfyStore to przykładowa frontendowa strona sklepu z dekoracjami, zbudowana przy użyciu ekosystemu React. Strona oferuje funkcje logowania i rejestracji użytkowników, którzy mogą dodawać wybrane produkty do koszyka oraz dokonywać zakupów. Zintegrowane dynamiczne filtry umożliwiają łatwe przeglądanie i wybór produktów. Dodatkowo, strona pozwala użytkownikom na wybór motywu (ciemnego lub jasnego), co zwiększa wygodę korzystania i dostosowuje wygląd strony do preferencji użytkownika.",
 		subdesc: "",
@@ -138,6 +107,78 @@ export const myProjects = [
 				id: 4,
 				name: "Redux",
 				path: "/assets/redux.png",
+			},
+		],
+	},
+	{
+		title: "Symulator rozkazów procesora INTEL 8086",
+		desc: "Aplikacja symulująca działanie podstawowych rozkazów procesora Intel 8086. Umożliwia wykonywanie operacji na rejestrach (MOV, XCHG), operacji na pamięci z różnymi trybami adresowania (indeksowy, bazowy, indeksowo-bazowy) oraz operacji stosowych (PUSH, POP). Projekt został zbudowany z wykorzystaniem nowoczesnego stosu technologicznego React, z zarządzaniem stanem przez Redux Toolkit oraz interfejsem użytkownika opartym na komponentach Shadcn/UI.",
+		subdesc: "",
+		href: "https://symulator-intel8086.kacperadamczyk.pl/", // Zakładam przykładowy URL
+		texture: "/textures/project/procesor8086.mp4", // Zakładam ścieżkę do wideo
+		logo: "/assets/cpu-favicon.svg", // Zakładam ścieżkę do logo
+		logoStyle: {
+			backgroundColor: "#1C1A43",
+			border: "0.2px solid #252262",
+			boxShadow: "0px 0px 60px 0px #635BFF4D",
+		},
+		spotlight: "/assets/spotlight5.png",
+		tags: [
+			{
+				id: 1,
+				name: "React.js",
+				path: "/assets/react.svg",
+			},
+			{
+				id: 2,
+				name: "Redux Toolkit",
+				path: "/assets/redux.png",
+			},
+			{
+				id: 3,
+				name: "TypeScript",
+				path: "/assets/typescript.png",
+			},
+			{
+				id: 4,
+				name: "TailwindCSS",
+				path: "assets/tailwindcss.png",
+			},
+			{
+				id: 5,
+				name: "Shadcn",
+				path: "assets/shadcn.svg",
+			},
+		],
+	},
+	{
+		title: "Webkaster - Portfolio Agencji Interaktywnej",
+		desc: "Webkaster to strona portfolio agencji zajmującej się tworzeniem stron internetowych oraz marketingiem. Zbudowana na WordPressie z wykorzystaniem Elementora, umożliwia łatwą edycję i zarządzanie treścią. Strona obsługuje wiele języków (multilanguage) oraz dynamiczny kontekst, co pozwala na automatyczne dostosowanie treści do każdej realizacji. Dzięki temu portfolio jest bardziej interaktywne i intuicyjne dla użytkowników, zapewniając przejrzystą prezentację projektów agencji. ",
+		subdesc: "",
+		href: "https://www.webkaster.com/",
+		texture: "/textures/project/webkaster.mp4",
+		logo: "/assets/webkaster.png",
+		logoStyle: {
+			backgroundColor: "#2A1816",
+			border: "0.2px solid #fde393",
+			boxShadow: "0px 0px 60px 0px #AA3C304D",
+		},
+		spotlight: "/assets/spotlight1.png",
+		tags: [
+			{
+				id: 1,
+				name: "Wordpress",
+				path: "/assets/Wordpress.png",
+			},
+			{
+				id: 2,
+				name: "Elementor",
+				path: "/assets/Elementor.png",
+			},
+			{
+				id: 3,
+				name: "Figma",
+				path: "/assets/figma.png",
 			},
 		],
 	},
