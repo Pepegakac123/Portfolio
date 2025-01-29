@@ -23,6 +23,62 @@ export const navLinks = [
 
 export const myProjects = [
 	{
+		title: "Jobster",
+		desc: "Pingram to aplikacja stworzona przy pomocy Reacta i jego ekosystemu a także backendu appwrite. Umożliwia ona użytkowniką tworzenie własnych kont, dodawanie zdjęć oraz zarządzanie nimi. Jest ona połączeniem dwóch słynnych aplikacji - Instagrama i Pinteresta ",
+		subdesc: "",
+		href: "https://jobster.kacperadamczyk.pl//",
+		texture: "/textures/project/jobster.mp4",
+		logo: "/assets/jobster.ico",
+		logoStyle: {
+			backgroundColor: "#1C1A43",
+			border: "0.2px solid #252262",
+			boxShadow: "0px 0px 60px 0px #635BFF4D",
+		},
+		spotlight: "/assets/spotlight3.png",
+		tags: [
+			{
+				id: 1,
+				name: "React.js",
+				path: "/assets/react.svg",
+			},
+			{
+				id: 7,
+				name: "Typescript",
+				path: "/assets/typescript.png",
+			},
+			{
+				id: 4,
+				name: "NodeJs",
+				path: "/assets/nodejs.png",
+			},
+			{
+				id: 6,
+				name: "Express",
+				path: "/assets/express.png",
+			},
+			{
+				id: 8,
+				name: "MySql",
+				path: "/assets/mysql.png",
+			},
+			{
+				id: 5,
+				name: "React Router",
+				path: "/assets/react-router.png",
+			},
+			{
+				id: 2,
+				name: "TailwindCSS",
+				path: "assets/tailwindcss.png",
+			},
+			{
+				id: 3,
+				name: "Shadcn",
+				path: "assets/shadcn.svg",
+			},
+		],
+	},
+	{
 		title:
 			"Pingram - Aplikacja Social Media inspirowana Instagramem i Pinterestem",
 		desc: "Pingram to aplikacja stworzona przy pomocy Reacta i jego ekosystemu a także backendu appwrite. Umożliwia ona użytkowniką tworzenie własnych kont, dodawanie zdjęć oraz zarządzanie nimi. Jest ona połączeniem dwóch słynnych aplikacji - Instagrama i Pinteresta ",
