@@ -1,14 +1,16 @@
 import { Suspense, useState } from "react";
-import { myProjects } from "../Constants/index.js";
+import { getMyProjects } from "../Constants/index.js";
 import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
 import CanvasLoader from "./CanvasLoader";
 import DemoComputer from "./DemoComputer.jsx";
-const projectCount = myProjects.length;
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+	const { t, i18n } = useTranslation();
+	const myProjects = getMyProjects(i18n.language);
 	const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
-
+	const projectCount = myProjects.length;
 	const currentProject = myProjects[selectedProjectIndex];
 
 	const handleNavigation = (direction) => {
@@ -22,13 +24,13 @@ const Projects = () => {
 
 	return (
 		<section className="c-space my-20" id="projekty">
-			<p className="head-text">Moje Projekty</p>
+			<p className="head-text">{t("projects.title")}</p>
 			<div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
 				<div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
 					<div className="absolute top-0 right-0">
 						<img
 							src={currentProject.spotlight}
-							alt="spotlight"
+							alt={currentProject.title}
 							className="w-full h-96 object-cover rounded-xl"
 						/>
 					</div>
@@ -50,8 +52,8 @@ const Projects = () => {
 					</div>
 					<div className="flex items-center justify-between flex-wrap gap-5">
 						<div className="flex items-center gap-3">
-							{currentProject.tags.map((tag, index) => (
-								<div key={index} className="tech-logo">
+							{currentProject.tags.map((tag) => (
+								<div key={tag.id} className="tech-logo">
 									<img src={tag.path} alt={tag.name} />
 								</div>
 							))}
@@ -63,8 +65,12 @@ const Projects = () => {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<p>Odwiedź Stronę</p>
-							<img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+							<p>{t("projects.visitWebsite")}</p>
+							<img
+								src="/assets/arrow-up.png"
+								alt={t("projects.arrow.alt")}
+								className="w-3 h-3"
+							/>
 						</a>
 					</div>
 					<div className="flex justify-between items-center mt-7">
@@ -72,10 +78,11 @@ const Projects = () => {
 							type="button"
 							className="arrow-btn"
 							onClick={() => handleNavigation("previous")}
+							aria-label={t("projects.navigation.previous")}
 						>
 							<img
 								src="/assets/left-arrow.png"
-								alt="left-arrow"
+								alt={t("projects.navigation.previous")}
 								className="w-4 h-4"
 							/>
 						</button>
@@ -83,10 +90,11 @@ const Projects = () => {
 							type="button"
 							className="arrow-btn"
 							onClick={() => handleNavigation("next")}
+							aria-label={t("projects.navigation.next")}
 						>
 							<img
 								src="/assets/right-arrow.png"
-								alt="right-arrow"
+								alt={t("projects.navigation.next")}
 								className="w-4 h-4"
 							/>
 						</button>
@@ -111,4 +119,5 @@ const Projects = () => {
 		</section>
 	);
 };
+
 export default Projects;

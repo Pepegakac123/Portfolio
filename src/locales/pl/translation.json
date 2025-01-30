@@ -1,0 +1,85 @@
+{
+	"nav": {
+		"home": "Strona Główna",
+		"about": "O Mnie",
+		"projects": "Projekty",
+		"contact": "Kontakt"
+	},
+	"hero": {
+		"greeting": "Cześć, Jestem Kacper",
+		"role": "Fullstack Developer(Frontend",
+		"learnMore": "Poznaj Więcej"
+	},
+	"about": {
+		"title": "O Mnie",
+		"intro": {
+			"age": "Mam 20 lat i moją pasję do tworzenia stron internetowych odkryłem, gdy skończyłem 7. klasę.",
+			"development": "Od tego czasu nieustannie rozwijam swoje umiejętności w tej dziedzinie."
+		},
+		"interests": {
+			"hobbies": "Poza programowaniem, jestem ogromnym fanem uniwersum Wiedźmina, Kibicuję FC Barcelonie, śledząc każdy mecz z zapartym tchem.",
+			"culture": "Interesuję się również kulturą japońską oraz sztuką tatuażu, która dla mnie jest nie tylko formą ekspresji, ale także piękną opowieścią na skórze."
+		},
+		"techStack": {
+			"title": "Tech Stack",
+			"description": "Specjalizuję się w tworzeniu aplikacji webowych, wykorzystując TypeScript i JavaScript jako główne języki programowania. W obszarze frontendu koncentruję się na React i jego ekosystemie, używając React Query do zarządzania stanem serwerowym, Redux Toolkit do stanu aplikacji oraz React Router do nawigacji. Do stylizacji wykorzystuję TailwindCSS wraz z komponentami Shadcn/UI i DaisyUI. W zakresie backendu rozwijam się w Node.js i Express.js, pracuję z bazami danych przy użyciu Prisma ORM, a także mam doświadczenie z WordPress i jego REST API."
+		},
+		"education": {
+			"title": "Jestem Studentem Informatyki Stosowanej",
+			"description": "Od 1 października 2024 roku studiuję informatykę stosowaną w Wyższej Szkole Ekonomii i Informatyki w Krakowie, Wcześniej ukończyłem Technikum Informatyczne w Rabce-Zdroju."
+		},
+		"passion": {
+			"title": "Moja pasja do programowania",
+			"description": "Moją przygodę z programowaniem rozpocząłem od frontendu, tworząc proste strony w HTML i CSS. Szybko zainteresowałem się nowoczesnymi technologiami jak React, który stał się moim głównym narzędziem do tworzenia interfejsów użytkownika.",
+			"future": "Obecnie rozwijam się w kierunku fullstack developmentu, zgłębiając Node.js, Express oraz pracę z bazami danych. Fascynuje mnie możliwość tworzenia kompletnych aplikacji webowych, od interfejsu użytkownika po logikę backendową. W najbliższej przyszłości planuję poszerzyć swoją wiedzę o Next.js oraz zaawansowane wzorce projektowe w TypeScript. Moim celem jest zostanie wszechstronnym fullstack developerem, zdolnym do samodzielnego tworzenia złożonych aplikacji webowych."
+		},
+		"contact": {
+			"title": "Skontaktuj się"
+		},
+		"writeNow": "Napisz Teraz"
+	},
+	"projects": {
+		"title": "Moje Projekty",
+		"visitWebsite": "Odwiedź Stronę",
+		"navigation": {
+			"previous": "Poprzedni projekt",
+			"next": "Następny projekt"
+		},
+		"arrow": {
+			"alt": "strzałka"
+		}
+	},
+	"experience": {
+		"title": "Moje Doświadczenie"
+	},
+	"contact": {
+		"title": "Kontakt",
+		"description": "Jestem otwarty na nowe wyzwania i chętnie porozmawiam o możliwościach współpracy. Jeśli szukasz osoby, która pomoże rozwijać Twoje projekty, zapraszam do kontaktu. Z przyjemnością odpowiem na Twoje pytania i omówię, jak mogę wesprzeć Twój zespół",
+		"form": {
+			"name": "Imię",
+			"email": "Email",
+			"message": "Twoja Wiadomość",
+			"send": "Wyślij Wiadomość",
+			"sending": "Wysyłanie..."
+		},
+		"placeholders": {
+			"name": "Jan Kowalski",
+			"email": "Jan@gmail.com",
+			"message": "Cześć, chcielibyśmy zaoferować ci pracę..."
+		},
+		"toast": {
+			"success": "Twoja Wiadomość Została Wysłana",
+			"error": "Coś Poszło Nie Tak"
+		},
+		"terminal": {
+			"alt": "terminal"
+		},
+		"arrow": {
+			"alt": "strzałka w górę"
+		}
+	},
+	"footer": {
+		"privacyPolicy": "Polityka Prywatności",
+		"rights": "Wszelkie prawa zastrzeżone."
+	}
+}
