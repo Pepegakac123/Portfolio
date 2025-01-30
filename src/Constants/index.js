@@ -23,18 +23,18 @@ export const navLinks = [
 
 export const myProjects = [
 	{
-		title: "Jobster",
-		desc: "Pingram to aplikacja stworzona przy pomocy Reacta i jego ekosystemu a także backendu appwrite. Umożliwia ona użytkowniką tworzenie własnych kont, dodawanie zdjęć oraz zarządzanie nimi. Jest ona połączeniem dwóch słynnych aplikacji - Instagrama i Pinteresta ",
+		title: "Jobster - Aplikacja do śledzenia procesu aplikacji o pracę",
+		desc: "Jobster to fullstackowa aplikacja zbudowana w oparciu o TypeScript, wykorzystująca React z Vite po stronie frontendu oraz Express.js i Prisma ORM po stronie backendu. Aplikacja umożliwia użytkownikom śledzenie procesu aplikacji o pracę, zarządzanie statusami rekrutacji oraz przechowywanie istotnych informacji o potencjalnych pracodawcach. Zawiera system autentykacji, filtrowania ofert oraz generowania statystyk aplikacji.",
 		subdesc: "",
-		href: "https://jobster.kacperadamczyk.pl//",
+		href: "https://jobster.kacperadamczyk.pl/",
 		texture: "/textures/project/jobster.mp4",
 		logo: "/assets/jobster.ico",
 		logoStyle: {
-			backgroundColor: "#1C1A43",
-			border: "0.2px solid #252262",
-			boxShadow: "0px 0px 60px 0px #635BFF4D",
+			backgroundColor: "#10B981", // Jasny zielony - nawiązanie do koloru logo
+			border: "0.2px solid #059669", // Ciemniejszy odcień zielonego dla bordera
+			boxShadow: "0px 0px 60px 0px #34D39940", // Delikatny zielony cień
 		},
-		spotlight: "/assets/spotlight3.png",
+		spotlight: "/assets/spotlight2.png",
 		tags: [
 			{
 				id: 1,
@@ -42,37 +42,37 @@ export const myProjects = [
 				path: "/assets/react.svg",
 			},
 			{
-				id: 7,
-				name: "Typescript",
+				id: 2,
+				name: "TypeScript",
 				path: "/assets/typescript.png",
 			},
 			{
-				id: 4,
-				name: "NodeJs",
+				id: 3,
+				name: "Node.js",
 				path: "/assets/nodejs.png",
 			},
 			{
-				id: 6,
+				id: 4,
 				name: "Express",
 				path: "/assets/express.png",
 			},
 			{
-				id: 8,
-				name: "MySql",
+				id: 5,
+				name: "Prisma",
+				path: "/assets/prisma.png",
+			},
+			{
+				id: 6,
+				name: "MySQL",
 				path: "/assets/mysql.png",
 			},
 			{
-				id: 5,
-				name: "React Router",
-				path: "/assets/react-router.png",
-			},
-			{
-				id: 2,
+				id: 7,
 				name: "TailwindCSS",
 				path: "assets/tailwindcss.png",
 			},
 			{
-				id: 3,
+				id: 8,
 				name: "Shadcn",
 				path: "assets/shadcn.svg",
 			},
