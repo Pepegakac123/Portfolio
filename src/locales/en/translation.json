@@ -1,0 +1,85 @@
+{
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"projects": "Projects",
+		"contact": "Contact"
+	},
+	"hero": {
+		"greeting": "Hi, I'm Kacper",
+		"role": "Fullstack Developer(Frontend Leaning)",
+		"learnMore": "Learn More"
+	},
+	"about": {
+		"title": "About Me",
+		"intro": {
+			"age": "I'm 20 years old and discovered my passion for creating websites when I finished 7th grade.",
+			"development": "Since then, I've been continuously developing my skills in this field."
+		},
+		"interests": {
+			"hobbies": "Besides programming, I'm a huge fan of The Witcher universe and support FC Barcelona, following every match with bated breath.",
+			"culture": "I'm also interested in Japanese culture and tattoo art, which for me is not just a form of expression, but also a beautiful story on the skin."
+		},
+		"techStack": {
+			"title": "Tech Stack",
+			"description": "I specialize in web application development using TypeScript and JavaScript as primary programming languages. In frontend development, I focus on React and its ecosystem, utilizing React Query for server state management, Redux Toolkit for application state, and React Router for navigation. For styling, I use TailwindCSS along with Shadcn/UI and DaisyUI components. On the backend, I'm developing skills in Node.js and Express.js, working with databases using Prisma ORM, and have experience with WordPress and its REST API."
+		},
+		"education": {
+			"title": "I'm a Computer Science Student",
+			"description": "Since October 1st, 2024, I have been studying Applied Computer Science at the University of Economics and Computer Science in Kraków. Previously, I graduated from IT Technical School in Rabka-Zdrój."
+		},
+		"passion": {
+			"title": "My Programming Passion",
+			"description": "I began my programming journey with frontend development, creating simple pages in HTML and CSS. I quickly became interested in modern technologies like React, which became my main tool for creating user interfaces.",
+			"future": "Currently, I'm expanding into fullstack development, exploring Node.js, Express, and database management. I'm fascinated by the ability to create complete web applications, from user interface to backend logic. In the near future, I plan to expand my knowledge with Next.js and advanced design patterns in TypeScript. My goal is to become a versatile fullstack developer, capable of independently creating complex web applications."
+		},
+		"contact": {
+			"title": "Get in Touch"
+		},
+		"writeNow": "Write Now"
+	},
+	"projects": {
+		"title": "My Projects",
+		"visitWebsite": "Visit Website",
+		"navigation": {
+			"previous": "Previous project",
+			"next": "Next project"
+		},
+		"arrow": {
+			"alt": "arrow"
+		}
+	},
+	"experience": {
+		"title": "My Experience"
+	},
+	"contact": {
+		"title": "Contact",
+		"description": "I'm open to new challenges and would love to discuss collaboration opportunities. If you're looking for someone to help develop your projects, feel free to get in touch. I'll be happy to answer your questions and discuss how I can support your team",
+		"form": {
+			"name": "Name",
+			"email": "Email",
+			"message": "Your Message",
+			"send": "Send Message",
+			"sending": "Sending..."
+		},
+		"placeholders": {
+			"name": "John Smith",
+			"email": "John@gmail.com",
+			"message": "Hi, we would like to offer you a job..."
+		},
+		"toast": {
+			"success": "Your Message Has Been Sent",
+			"error": "Something Went Wrong"
+		},
+		"terminal": {
+			"alt": "terminal"
+		},
+		"arrow": {
+			"alt": "arrow up"
+		}
+	},
+	"footer": {
+		"privacyPolicy": "Privacy Policy",
+		"rights": "All rights reserved."
+	}
+}
